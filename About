@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 5px;
+            padding: 0px;
+            background-color: #f4f4f4;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        section {
+            
+            margin:0 px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden; /* Clearfix to contain floated image */
+        }
+
+        h2 {
+            color: #333;
+        }
+        
+        h1
+        {
+            color: black;
+        }
+        nav
+        {
+            background-color: #f4f4f4;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+        #team-images
+        {
+            float: none;
+        }
+
+        img {
+            max-width: 50%;
+            height: auto;
+            border-radius:5%;
+            margin-bottom: 10px;
+        }
+
+        /* Float the image to the right */
+        .image-container {
+            float: right;
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+       #who-we-are
+       {
+        float: left;
+        text-align: left;
+       }
+        #vision
+        {
+            background-color: #F8E559;
+        }
+        #our-team
+        {
+            background-color: #F8E559;
+        }
+        #topimage,#houseicon
+        {
+          
+            float: right;
+        }
+        #footer
+        {
+            background-color: #333;
+            margin: 1px;
+            border-radius: 2px;
+        }
+        .foot
+        {
+            margin-right: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <h1 style="text-align: left">About Us</h1>
+        <a href="homepage.html"><img src="house.png" alt="home" height="25px" width="25px" id="houseicon"></a>
+    </nav>
+
+    <section id="who-we-are">
+        <div class="image-container">
+            <img src="catalin-pop-Hen3PrsTGsM-unsplash.jpg" alt="Image" id="topimage">
+        
+        <div>
+            <h2>Who Are We?</h2>
+            <p>We are a nonprofit animal welfare organisation working to create a safe and healthy world for every animal, and for the people who love them.</p>
+            <p> is here for every animal in need. We believe that every animal deserves the best. That is why we are dedicated to the rescue and rehabilitation of stray and abandoned animals — we believe we can transform their quality of life through kindness and compassion. </p>
+        </div>
+        </div>
+    </section>
+
+    <section id="vision">
+        <h2>Vision</h2>
+        <p>To make this world a better place for every animal and bird. We aim to bring in an amalgamation of technology and kindness and making the world worthy of co-existence.</p>
+    </section>
+
+    <section id="mission">
+        <h2>Mission</h2>
+        <p>To help every animal or bird in need and to build a connection between their world and ours.</p>
+    </section>
+
+    <section id="our-team">
+        <h2>Our Team</h2>
+        <div id="team-images">
+            <img src="team-member-1.jpg" alt="Sinchana">
+            <img src="team-member-2.jpg" alt="Sneha">
+            <img src="team-member-3.jpg" alt="Siri">
+        </div>
+    </section>
+
+        <div id="footer">
+            <a href=""><img src="" alt="mail" class="foot"></a>
+            <a href=""><img src="" alt="insta"  class="foot"></a>
+            <a href=""><img src="" alt="linkedin"  class="foot"></a>
+            <a href=""><img src="" alt="phno"  class="foot"></a>
+            </div>
+  
+
+</body>
+</html>
