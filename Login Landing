@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Landing</title>
+    <style>
+        body
+        {
+            background-color:#F8E559
+        }
+    div.b1
+        {
+            margin:50px;
+            padding: 50px;
+            text-align: center;
+            border: 1px solid black;
+            
+        }
+        #l1
+        {
+            border: 3px solid black;
+            padding: 5px;
+            box-shadow: 5px 5px;
+        }
+        #l2
+        {
+            border: 3px solid black;
+            padding: 5px;
+            box-shadow: 5px 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="b1">
+    <p id="l1">Login for Volunteers / Organizations</p><br>
+    <p id="l2">Not a FaunaPal yet?  Sign Up Now</p><br>
+</div>
+</body>
+</html>
