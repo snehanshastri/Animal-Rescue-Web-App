@@ -1,0 +1,88 @@
+style
+footer {
+    background-color: #DED0B6;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.organization-info,
+.social-media,
+.contact-info,
+.get-involved {
+    flex: 1;
+    padding: 0 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+body
+<footer class="foot">
+  <div class="footer-content">
+      <div class="organization-info">
+        <i class="fa-solid fa-paw   fa-xl" style="color: #421e05;">Animal Rescue</i>
+          <p>Promoting Compassion for All Creatures</p>
+      </div>
+      
+      <div class="social-media">
+          <b><p>Connect with Us:</p></b>
+          <!-- Add your social media icons here -->
+          <a href="https://www.instagram.com/amtmindia/">
+          <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png"
+          height="35px"
+          width="35px">
+          </a>
+          <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-512.png"
+          height="35px"
+          width="35px">
+
+          <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter3_colored_svg-512.png"
+          height="35px"
+          width="35px">
+      </div>
+      
+      <div class="contact-info">
+          <b>Contact Information:</p></b><p>
+          <p>7th Street Road 5th Cross Stella Street Bangalore</p>
+          <p>Phone: 7612345678</p>
+          <p>Email: animalrescue600@gmail.com</p>
+      </div>
+      
+      <div class="get-involved">
+          <b>Get Involved:</p></b><p>
+          <ul>
+              <a href="#"><li>Donate</li></a>
+              <a href="#"><li>Volunteer</li></a>
+              <a href="#"><li>Adopt</li></a>
+              <li>Spread the Word</li>
+          </ul>
+      </div>
+  </div>
+  
+  <div class="copyright">
+     <b><p>&copy; 2024 Your Organization Name. All rights reserved.</p></b> 
+  </div>
+</footer>
