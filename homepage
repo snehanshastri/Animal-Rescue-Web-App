@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/8a0e605371.js" crossorigin="anonymous"></script>
     <style>
-       
         h3{
              background-color: aliceblue;
              opacity: 0.7;
@@ -186,10 +185,10 @@ button{
     <a></a>
     <a></a>
     <a></a>
-    <a href="#home">Home</a>
-    <a href="#about">About Us</a>
-    <a href="./loginlanding.html">Login/Signup</a>
-    <a href="#donate">Rescue</a>
+    <a href="home.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="LoginLanding.html">Login/Signup</a>
+    <a href="Rescue.html">Rescue</a>
     
 </nav>
 
@@ -263,7 +262,7 @@ button{
           </div>
           <div class="card-footer">
             <small class="text-body-secondary">
-              <button><a>Know More</a></button>
+              <button><a href="donate.html" style="text-decoration: none;">Know More</a></button>
             </small>
           </div>
         </div>
@@ -279,7 +278,7 @@ button{
           <div class="card-footer">
             <small class="text-body-secondary">
               <button>
-                <a>Know More</a>
+                <a href="LoginLanding.html" style="text-decoration: none;">Know More</a>
               </button>
             </small>
           </div>
@@ -296,7 +295,7 @@ button{
           <div class="card-footer">
             <small class="text-body-secondary">
               <button>
-                Know More
+                <a href="adopt.html" style="text-decoration: none;">Know More</a>
               </button>
             </small>
           </div>
@@ -311,7 +310,7 @@ button{
 <footer class="foot">
   <div class="footer-content">
       <div class="organization-info">
-        <i class="fa-solid fa-paw   fa-xl" style="color: #421e05;">Animal Rescue</i>
+        <i class="fa-solid fa-paw   fa-xl" style="color: #421e05;">Care Cuddles</i>
           <p>Promoting Compassion for All Creatures</p>
       </div>
       
@@ -327,7 +326,7 @@ button{
           height="35px"
           width="35px">
 
-          <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter3_colored_svg-512.png"
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAAAAABWESUoAAAA3ElEQVR4Ac2SGQDFMBBE1ylOcYpTner0neK0TnGpU53iFKc6xWl+p+f25D7InZ295Cv0mGjFUOzWDVVVa/WykaBiaBBFfsiyory3JASRjs8mInqxUGRw47CIBIy7Ew0Sh0nED4OXCwkNh8h7GrrgCkVK9a7w6Q2BjoVa6Oo9EZEDVJ7I1M4UeMDXzIEhvoukFxNMaP8o4gpon1l9qnqc7DcPIgpd7Ce0t/fJVO0q0qIsVeuY1XwNYK1gwm8J2GAqvHRF5mD7BcG0Rl6yegjw0BqdakE8Bni0RyjyDf4Y1Y0n0wNT4wAAAABJRU5ErkJggg=="
           height="35px"
           width="35px">
       </div>
@@ -342,9 +341,9 @@ button{
       <div class="get-involved">
           <b>Get Involved:</p></b><p>
           <ul>
-              <a href="#"><li>Donate</li></a>
-              <a href="#"><li>Volunteer</li></a>
-              <a href="#"><li>Adopt</li></a>
+              <a href="donate.html" style="text-decoration: none;"><li>Donate</li></a>
+              <a href="LoginLanding.html" style="text-decoration: none;"><li>Volunteer</li></a>
+              <a href="adopt.html" style="text-decoration: none;"><li>Adopt</li></a>
               <li>Spread the Word</li>
           </ul>
       </div>
@@ -354,12 +353,6 @@ button{
      <b><p>&copy; 2024 Your Organization Name. All rights reserved.</p></b> 
   </div>
 </footer>
-
-
-
-
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-      
-
     </body>
 </html>
