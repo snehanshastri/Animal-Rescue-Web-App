@@ -172,7 +172,39 @@ ul li {
 button{
   box-shadow: 5px 5px 5px black;
 }
+@media (max-width: 768px) {
+            .navbar {
+                margin-left: 0;
+                width: 100%;
+            }
 
+            .carrousel {
+                margin-top: 50px;
+                max-width: 100%;
+            }
+
+            .cards {
+                margin-top: 50px;
+                max-width: 100%;
+            }
+
+            .foot {
+                margin-top: 50px;
+            }
+
+            .footer-content {
+                flex-direction: column;
+            }
+
+            .organization-info,
+            .social-media,
+            .contact-info,
+            .get-involved {
+                flex: none;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
 
         
     </style>
