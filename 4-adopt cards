@@ -1,0 +1,59 @@
+  .adopt{
+            
+            height: 100%;
+            width: 75%;
+        }
+
+
+
+
+adopt 4 cards body
+
+<center>
+     <div class="adopt">
+    
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1669522387236-9a9b5e46a233?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D " class="card-img-top" alt="..." height="600px" width="700px">
+            <div class="card-body">
+              <h5 class="card-title">Ruby</h5>
+              <p class="card-text">Show your compassion to Ruby, a resilient 1.5-year-old female dog from Borivali West. Ruby is currently under our care after an unfortunate incident left her paralyzed, possibly due to an accident or dog bite. We seek your support to raise ₹25,000 for her medical needs.</p>
+              <a href="#"><button>Adopt</button></a>
+            </div>
+          </div>
+        </div>
+   
+        <div class="col">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1616694005657-07c6c8753711?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="..." height="580px" >
+            <div class="card-body">
+              <h5 class="card-title">Arthur</h5>
+              <p class="card-text">Extend a helping hand to Arthur, a brave 2-year-old male cat, rescued from Malwani, Malad West. With a maggot wound near his cheeks, to ensure his full recovery, we need your assistance to raise ₹20,000 for his medical expenses. Your contribution can make a significant difference in Arthur’s journey to healing..</p>
+              <a href="#"><button>Adopt</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://www.amtmindia.org/wp-content/uploads/2023/11/Sandy-Animal-case-1024x1024.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sandy</h5>
+              <p class="card-text">Sandy urgently seeks your support for treatment as he battles horrible maggot infection wounds requiring immediate attention. Your contribution can play a vital role in his healing journey..</p>
+              <a href="#"><button>Adopt</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://www.amtmindia.org/wp-content/uploads/2023/11/Billu-Image-1024x1024.png" class="card-img-top" alt="..." height="515px">
+            <div class="card-body">
+              <h5 class="card-title">Billu </h5>
+              <p class="card-text">Help Billu, a 7-year-old stray cat receiving care at the animal hospital. Billu requires your support to overcome a distressing leg wound and severe dehydration. Your contribution can accelerate his path to recovery..</p>
+              <a href="#"><button>Adopt</button></a>          
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </center>
