@@ -57,7 +57,7 @@
             box-sizing: border-box;
         }
 
-        button {
+        #button {
             background-color: #4CAF50;
             color: white;
             padding: 10px 15px;
@@ -116,7 +116,7 @@
     </div>
     
     <div id="paymentinterface">
-        <form action="">
+        <form action="payment.php" method="post" >
             <h3>Donate Now!</h3>
 
             <label for="Name">Name</label>
@@ -128,13 +128,13 @@
             <label for="phno">Phone Number</label>
             <input type="number" id="phno"><br><br>
 
-            <label for="paymentMethod">Select Payment Method</label>
+            <!-- <label for="paymentMethod">Select Payment Method</label>
             <select id="paymentMethod">
                 <option value="card">Credit/Debit Card</option>
-                <option value="upi">UPI</option>
-            </select><br><br>
+                <option value="upi">UPI</option> -->
+            </select>
 
-            <button type="button" onclick="processPayment()">Proceed</button>
+           <input type="submit" value="Proceed" id="button">
         </form>
     </div>
 </div>
@@ -181,7 +181,7 @@
     </div>
     
     <div class="copyright">
-       <b><p>&copy; 2024 Your Organization Name. All rights reserved.</p></b> 
+       <b><p>&copy;  2024 - Care Cuddles - All rights reserved.</p></b> 
     </div>
   </footer>
 
