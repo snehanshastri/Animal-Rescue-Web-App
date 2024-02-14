@@ -151,7 +151,7 @@
     </div>
     
     <div class="copyright">
-       <b><p>&copy; 2024 Your Organization Name. All rights reserved.</p></b> 
+       <b><p>&copy;  2024 - Care Cuddles - All rights reserved.</p></b> 
     </div>
   </footer>
 
