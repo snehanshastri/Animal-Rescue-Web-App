@@ -1,5 +1,3 @@
-HTML
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,53 +6,7 @@ HTML
     <link rel="stylesheet" href="stylees.css">
     <script src="scriptt.js" defer></script>
     <title>Full Stack Sign-Up</title>
-</head>
-<body align="center" text-align-last: center>
-    <div class="container">
-        <form id="signupForm">
-            <h1>JOIN US NOW</h1><br>
-            <div class="input-group">
-                <label for="BUSINESS"><h3>Business Owner:</h3></label>
-            </div>
-            <div class="input-group">
-                <label for="firstName">First Name:</label>
-                <input type="text" id="firstName" name="firstName" required>
-                <label for="LASTName">Last Name:</label>
-                <input type="text" id="LASTName" name="LASTName" required><br><br>
-            </div>
-            <div class="input-group">
-                <label for="BusinessName">Business Name:</label>
-                <input type="text" id="BusinessName" name="BusinessName" required><br><br>
-            </div>
-            <div class="input-group">
-                <label for="contact">Contact Number:</label>
-                <input type="value" id="contact" name="contact" minlength="10" maxlength="10"><br><br>
-            </div>
-            <div class="input-group">
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required><br><br>
-            </div>
-            <div class="input-group">
-                <label for="address">Business Address:</label>
-                <textarea cols="20" rows="5" id="address" name="address" required></textarea><br><br>
-            </div>
-            <div class="input-group">
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required><br><br>
-            </div>
-            <div class="input-group">
-                <label for="confirmPassword">Confirm Password:</label>
-                <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
-            </div>
-            <button type="submit">Sign Up</button>
-        </form>
-    </div>
-</body>
-</html>
-
-
-CSS
-
+    <style>
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -116,10 +68,53 @@ h1 {
 }
 
 
-JAVASCRIPT
+    </style>
 
+</head>
+<body align="left" text-align-last: center>
+    <div class="container">
+        <form id="signupForm">
+            <h1>JOIN US NOW</h1><br>
+            <div class="input-group">
+                <label for="BUSINESS"><h3><center>Organization</center></h3></label>
+            </div>
+            <div class="input-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required><br><br>
+                <label for="LASTName">Last Name:</label>
+                <input type="text" id="LASTName" name="LASTName" required><br><br>
+            </div>
+            <div class="input-group">
+                <label for="BusinessName">Organization Name:</label>
+                <input type="text" id="BusinessName" name="BusinessName" required><br><br>
+            </div>
+            <div class="input-group">
+                <label for="contact">Contact Number:</label>
+                <input type="value" id="contact" name="contact" minlength="10" maxlength="10"><br><br>
+            </div>
+            <div class="input-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required><br><br>
+            </div>
+            <div class="input-group">
+                <label for="address">Organization Address:</label>
+                <textarea cols="20" rows="5" id="address" name="address" required></textarea><br><br>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+            </div>
+            <div class="input-group">
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
 
-document.addEventListener("DOMContentLoaded", function () {
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("signupForm");
 
     form.addEventListener("submit", function (event) {
@@ -150,3 +145,7 @@ document.addEventListener("DOMContentLoaded", function () {
         return true;
     }
 });
+</script>
+
+</html>
+
