@@ -1,5 +1,3 @@
-HTML
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,59 +6,8 @@ HTML
     <link rel="stylesheet" href="stylessss.css">
     <script src="script.js" defer></script>
     <title>Full Stack Sign-Up</title>
-</head>
-<body align="center" text-align-last: center>
-    <div class="container">
-        <form id="signupForm">
-            <h1>JOIN US NOW</h1>
-            <div class="input-group">
-                <label for="firstName">First Name:</label>
-                <input type="text" id="firstName" name="firstName" required>
-                <label for="LASTName">Last Name:</label>
-                <input type="text" id="LASTName" name="LASTName" required><br><br>
-            </div>
-            <div class="input-group">
-                <label for="contact">Contact Number:</label>
-                <input type="value" id="contact" name="contact" minlength="10" maxlength="10"><br><br>
-            </div>
-            <div class="input-group">
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required><br><br>
-            </div>
-            <div class="input-group">
-                <label for="address">Address:</label>
-                <textarea cols="20" rows="5" id="address" name="address" required></textarea><br><br>
-            </div>
-            <div class="input-group">
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required><br><br>
-            </div>
-            <div class="input-group">
-                <label for="confirmPassword">Confirm Password:</label>
-                <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
-            </div>
-            <div class="input-group">
-                <label for="birthdate">Date of Birth:</label>
-                <input type="date" id="birthdate" name="birthdate" required><br><br>
-            </div>
-            <div class="input-group">
-                <label for="gender">Gender:</label>
-                <select id="gender" name="gender" required><br><br>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    <option value="other">Other</option>
-                </select>
-            </div><br><br>
-            <button type="submit">Sign Up</button>
-        </form>
-    </div>
-</body>
-</html>
-
-
-CSS
-
-body {
+    <style>
+        body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
@@ -77,8 +24,8 @@ body {
 }
 
 form {
-    display: flex;
-    flex-direction: column; 
+    display:flexbox;
+    justify-content:left;
 }
 
 .input-group {
@@ -119,9 +66,56 @@ h1 {
     margin-bottom: 20px;
 }
 
+    </style>
+</head>
+<body align="left" text-align-last: center>
+ 
+    <div class="container">
+        <form id="signupForm">
+            <h1>JOIN US NOW</h1>
+            <div class="input-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required><br><br>
+                <label for="LASTName">Last Name:</label>
+                <input type="text" id="LASTName" name="LASTName" required><br><br>
+            </div>
+            <div class="input-group">
+                <label for="contact">Contact Number:</label>
+                <input type="value" id="contact" name="contact" minlength="10" maxlength="10"><br><br>
+            </div>
+            <div class="input-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required><br><br>
+            </div>
+            <div class="input-group">
+                <label for="address">Address:</label>
+                <textarea cols="20" rows="5" id="address" name="address" required></textarea><br><br>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+            </div>
+            <div class="input-group">
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
+            </div>
+            <div class="input-group">
+                <label for="birthdate">Date of Birth:</label>
+                <input type="date" id="birthdate" name="birthdate" required><br><br>
+            </div>
+            <div class="input-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required><br><br>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div><br><br>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
 
-
-JAVASCRIPT
+    <script>
 
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("signupForm");
@@ -156,4 +150,9 @@ document.addEventListener("DOMContentLoaded", function () {
         return true;
     }
 });
+
+    </script>
+
+</body>
+</html>
 
